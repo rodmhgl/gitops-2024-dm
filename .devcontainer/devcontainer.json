@@ -40,10 +40,31 @@
       "jaqVersion": "latest"
     }
   },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "amazonwebservices.aws-toolkit-vscode",
+        "ms-azuretools.vscode-azureresourcegroups",
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "aaron-bond.better-comments",
+        "aws-scripting-guy.cform",
+        "ms-vscode-remote.remote-containers",
+        "github.codespaces",
+        "golang.go",
+        "hashicorp.terraform",
+        "foxundermoon.shell-format",
+        "redhat.vscode-yaml",
+        "github.vscode-github-actions",
+        "aaron-bond.better-comments"
+      ]
+    }
+  },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "chmod +x .devcontainer/scripts/install-precommit-dependencies.sh && bash .devcontainer/scripts/install-precommit-dependencies.sh"
+  "postCreateCommand": "bash .devcontainer/scripts/install-precommit-dependencies.sh"
   // Configure tool-specific properties.
   // "customizations": {},
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
