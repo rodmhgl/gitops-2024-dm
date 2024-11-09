@@ -58,7 +58,23 @@
         "redhat.vscode-yaml",
         "github.vscode-github-actions",
         "aaron-bond.better-comments"
-      ]
+      ],
+      "settings": {
+        "aws.telemetry": false,
+        "editor.formatOnSave": true,
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2,
+        "editor.fontSize": 24,
+        "editor.rulers": [
+          80
+        ],
+        "git.autofetch": true,
+        "editor.defaultFormatter": "foxundermoon.shell-format",
+        "terminal.integrated.fontSize": 24,
+        "[yaml]": {
+          "editor.defaultFormatter": "redhat.vscode-yaml"
+        }
+      }
     }
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
