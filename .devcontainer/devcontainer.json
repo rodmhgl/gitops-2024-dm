@@ -57,7 +57,7 @@
         "foxundermoon.shell-format",
         "redhat.vscode-yaml",
         "github.vscode-github-actions",
-        "aaron-bond.better-comments"
+        "parthr2031.colorful-comments"
       ],
       "settings": {
         "aws.telemetry": false,
