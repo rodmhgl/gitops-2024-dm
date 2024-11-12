@@ -57,8 +57,10 @@
         "foxundermoon.shell-format",
         "redhat.vscode-yaml",
         "github.vscode-github-actions",
-        "parthr2031.colorful-comments"
+        "parthr2031.colorful-comments",
+        "monokai.theme-monokai-pro-vscode"
       ],
+      
       "settings": {
         "aws.telemetry": false,
         "editor.formatOnSave": true,
@@ -71,6 +73,8 @@
         "git.autofetch": true,
         "editor.defaultFormatter": "foxundermoon.shell-format",
         "terminal.integrated.fontSize": 24,
+        "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+        "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
         "[yaml]": {
           "editor.defaultFormatter": "redhat.vscode-yaml"
         }
